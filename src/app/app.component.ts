@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'second-project';
+  count=0;
+  incriment(){
+    // debugger
+    this.count++
+  }
+  decriment(){
+    // debugger
+    if(this.count==0){
+      return
+    }
+    this.count--
+  }
 }
