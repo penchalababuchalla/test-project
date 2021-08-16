@@ -1,1 +1,21 @@
-button{color: green;}
+button {
+	color: green;
+	border-radius:3px;
+	width: 35px;
+}
+.inptgap {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.inptgap2 {
+	margin-bottom: 5px;
+}
+input {
+	width: 235px;
+}
+.mrgntop {
+	margin-top: 50px;
+}
+.box {
+	border: 1px solid;
+}
