@@ -35,10 +35,8 @@ export class PracCalculatorComponent {
 		for (i=n; i>=1; i--){
 
 			a=a*i;
-			console.log('inside')
-			console.log(a)
 		}
-		debugger
+		
    		this.input = a.toString();
 	}
 }
